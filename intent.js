@@ -1,5 +1,5 @@
 const getCharacter = () => {
-  return localStorage.getItem("character");
+  return sessionStorage.getItem("character");
 };
 
 const printHi = () => {
