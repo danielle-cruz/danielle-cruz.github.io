@@ -1,0 +1,3 @@
+[submodule "ted-lasso"]
+	path = ted-lasso
+	url = https://github.com/danielle-cruz/ted-lasso
