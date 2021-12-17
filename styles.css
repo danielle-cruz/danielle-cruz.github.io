@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "AUTHENTICSans-90";
+    src: url("/assets/fonts/AUTHENTICSans-90.otf");
+}
+
+h1 {
+    font-family: "AUTHENTICSans-90";
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "AUTHENTICSans-90";
+    font-weight: bold;
+}
