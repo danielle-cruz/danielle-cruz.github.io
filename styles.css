@@ -3,12 +3,34 @@
     src: url("/assets/fonts/AUTHENTICSans-90.otf");
 }
 
+body {
+    margin: 1rem;
+}
+
 h1 {
     font-family: "AUTHENTICSans-90";
-    font-weight: normal;
+    font-size: x-large;
+    font-weight: 600;
+    color: #52A6D4;
 }
 
 h2 {
     font-family: "AUTHENTICSans-90";
-    font-weight: bold;
+    font-size: x-large;
+    font-weight: normal;
+    text-decoration: underline;
+    color: black;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu > div {
+    margin: 0rem 1rem;
+}
+
+#name {
+    flex-grow: 1;
 }
