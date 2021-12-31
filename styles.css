@@ -213,6 +213,15 @@ li {
     margin: 2rem 0rem;
 }
 
+.one-column img {
+    margin: 4rem;
+    object-fit: contain;
+}
+
+.one-column p {
+    margin: 1rem 0rem;
+}
+
 .one-column-before-two {
     margin-bottom: 0rem;;
 }
@@ -279,6 +288,7 @@ li {
 
 .external-link h3 {
     margin: 0rem;
+    text-align: center;
 }
 
 .external-link a {

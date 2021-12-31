@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../assets/images/icon.png">
+    
+    <title>Guia - Danielle Cruz</title>
+    <link rel="stylesheet" href="../styles.css">
+    
+    
+    <!-- These two lines provide automatic page and style reloading when files change -->
+    <!-- <script src="/socket.io/socket.io.js"></script>
+        <script src="/lib/client/updater.js" defer></script> -->
+    </head>
+    <body>
+        
+        <!-- Navigation Menu -->
+        <div id="menu">
+            <div id="name"><a class="nav-link" href="../index.html">Danielle Cruz</a></div>
+            <div id="title"><h1>Guia</h1></div>
+            <div><a class="nav-link" href="../about.html">About</a></div>
+            <div><a class="nav-link" href="#">Resume</a></div>
+        </div>
+        
+        <!-- Credit -->
+        <div id="credit">
+            <p>Designed and developed by me! 2021</p>
+        </div>
+        
+        <!-- Subtitle -->
+        <div id="subtitle">
+            <h2>Helping learners engage with new languages more meaningfully</h2>
+            <p>Presented at Schmidt Future's Learning Engineering Expo and awarded first place with a prize of $25,000.</p>
+        </div>
+        
+        <!-- Content -->
+        <div id="content">
+            <img class="banner" src="../assets/images/thumbnails/guia.png" alt="A screenshot of the Guia extension telling the user that this online article is at the appropriate difficulty and interest level.">
+            <!-- Overview -->
+            <div class="one-column">
+                <h3>Overview</h3>
+                <p>
+                    With a name that comes from the Portuguese word for “guide,” Guia aims to serve as a learner’s guide to more meaningful language-learning. Where other products focus on the what or how of learning a language, Guia zeros in on the why — allowing learners to do exactly what they want with the language: engage with it in context and in culture. 
+                </p>
+                <p>
+                    Developed with Hayden Johnson, Kasra Lekan, and Sidhant Rastogi.
+                </p>
+            </div>
+
+            <!-- View complete works -->
+            <div class="one-column external-link">
+                <h3>
+                    <a href="../assets/files/Guia Slide Deck.pdf" target="_blank">View complete slide deck</a>
+                </h3>
+                <h3>
+                    <a href="../assets/files/Guia Business Plan.pdf" target="_blank">View business plan</a>
+                </h3>
+            </div>
+            
+            <!-- Problem -->
+            <div class="one-column">
+                <h3>Problem</h3>
+                <h4>
+                    Language learning tools are incomplete.
+                </h4>
+                <p>
+                    <span class="main-idea">Lack of real-world content.</span> While engaging with a target language through synthetic inputs like exercises in a textbook do help learners gain exposure to the language, they can often seem disconnected from the context needed to actively engage in conversations. Without authentic input, learning materials can often feel artificial or unrelated to a learner’s personal interests or to the current events and cultural contexts where the target language (Portuguese) is spoken. 
+                </p>
+                <p>
+                    <span class="main-idea">Lack of grammatical context.</span> Many language-learning methods place their emphasis on memorizing new vocabulary words or mastering basic phrases. However, this approach of learning words in isolation doesn't provide learners with the sense of grammatical structure and context to learn what Portuguese looks like in practice. Without seeing Portuguese in context, learners miss the opportunity to study how to build sentences from scratch. 
+                </p>
+                <p>
+                    <span class="main-idea">Loss of intrinsic motivation.</span> According to a study interviewing students in the UK who were learning Swedish, motivation is at the core of successful language education. “The opportunity to communicate with native speakers of the target language” was one of the most central keys to successful second-language studies for most students. <a href="http://lnu.diva-portal.org/smash/record.jsf?pid=diva2%3A206523&dswid=6723">(“Students' motivation and attitudes towards learning a second language.”)</a> However, without visible progress in conversational fluency due to the two aforementioned problems with language-learning today, it's no surprise that students of a second language often lose their motivation to continue.
+                </p>                
+            </div>
+            <img class="banner" src="../assets/images/work/guia-toucan.png">
+
+            <!-- Solution -->
+            <div class="one-column one-column-before-two">
+                <h3>Solution</h3>
+                <p>
+                    Guia is a Chrome extension interface that can be used to gauge the difficulty of online web pages/articles, as well as recommend articles based on the desired difficulty — all while browsing the web. Guia ultimately aims to empower users with the ability to take language-learning into their own hands and freely engage with Portuguese more authentically. 
+                </p>
+                <h4>Features</h4>
+                <p>Guia has three main features to achieve this goal.</p>
+            </div>
+            
+            <div class="two-column">
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/soundsight-horror.gif" alt="One prototype demo displaying a horror movie scene with sharp, jagged lines on the right side of the screen, indicating where a radio sound was coming from.">
+                        
+                    </div>
+                    <div>
+                        <p>
+                            <span class="main-idea">Difficulty estimation.</span> Employing NLP techniques of readability analysis, Guia estimates the difficulty of a Portuguese text before the user even reads it. This allows users to make more informed decisions about their learning, saving them from potential discouragement from trying to tackle a far too difficult text.
+                        </p>
+                    </div>
+                </div>
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/soundsight-rom-com.gif" alt="One prototype demo displaying a romantic comedy scene with smooth, wispy lines, indicating the actress's voice.">
+                        
+                    </div>
+                    <div>
+                        <p>
+                            <span class="main-idea">Feature extraction.</span>  In addition to estimating difficulty, Guia further augments the learning experience by specifically highlighting potential areas of growth or areas of difficulty.  This helps the user invest more time into actually learning from these areas of growth and less time searching for them.
+                        </p>
+                    </div>
+                </div>
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/soundsight-action.gif" alt="One prototype demo displaying an action movie scene with grainy, green visualizations on the left and right sides of the screen.">
+                        
+                    </div>
+                    <div>
+                        <p>
+                            <span class="main-idea">Proficiency and interests matching.</span>Prioritizing the enjoyment of language-learning in addition to effectiveness, Guia personalizes text recommendations not just by proficiency level, but by interests as well. Learners can improve their fluency by exploring the interests they care about.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Future work -->
+            <div class="one-column">
+                <h3>Future Work</h3>
+                <p>Given the limited scope of our user-testing, next steps include conducting more widely-tested surveys with more controlled and finer-tuned visualization prototypes. We'd also like to explore the option of leaving more room for aesthetic customization with regard to color, thickness, screen position, etc.</p>
+            </div>
+        </div>
+        
+        
+    </body>
+    </html>
+    
