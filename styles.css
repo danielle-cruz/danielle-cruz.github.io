@@ -41,6 +41,11 @@ h4 {
     font-size: large;
 }
 
+p > a {
+    color: #B6B6B6;
+    text-decoration: none;
+}
+
 a {
     color: black;
 }
@@ -53,7 +58,7 @@ img {
     box-shadow: 0rem 0rem 1.5rem rgba(0, 0, 0, 0.2);
 }
 
-ol {
+ol, ul{
     margin: 0rem 2rem;
 }
 
@@ -166,7 +171,7 @@ li {
     width: 45vw;
     flex-shrink: 0;
     margin: 0rem 1rem;
-
+    
 }
 
 #about img {
@@ -178,6 +183,7 @@ li {
 
 #about p {
     margin-top: 0rem;
+    margin-bottom: 2rem;
     font-size: x-large;
 }
 
@@ -196,11 +202,19 @@ li {
     object-fit: cover;
     border-radius: 1.5%;
     box-shadow: 0rem 0rem 1.5rem rgba(0, 0, 0, 0.2);
-
+    
 }
 
 .one-column {
-    margin: 2rem 18rem;
+    margin: 2rem 20rem;
+}
+
+.one-column iframe {
+    margin: 2rem 0rem;
+}
+
+.one-column-before-two {
+    margin-bottom: 0rem;;
 }
 
 .two-column {
@@ -218,7 +232,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
 }
 
 .two-column-instance > div > img {
@@ -237,11 +251,11 @@ li {
 }
 
 .block-quote {
-    margin: 4rem;
+    margin: 3rem;
     padding-left: 1rem;
     border-left: 5px solid #52A6D4;
     
-
+    
 }
 
 .block-quote p {
@@ -249,6 +263,10 @@ li {
     font-weight: 200;
     font-size: x-large;
     color: #52A6D4;
+}
+
+.block-quote-credit {
+    text-align: right;
 }
 
 .main-idea {

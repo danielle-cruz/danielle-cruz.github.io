@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../assets/images/icon.png">
+    
+    <title>SoundSight - Danielle Cruz</title>
+    <link rel="stylesheet" href="../styles.css">
+    
+    
+    <!-- These two lines provide automatic page and style reloading when files change -->
+    <!-- <script src="/socket.io/socket.io.js"></script>
+        <script src="/lib/client/updater.js" defer></script> -->
+    </head>
+    <body>
+        
+        <!-- Navigation Menu -->
+        <div id="menu">
+            <div id="name"><a class="nav-link" href="../index.html">Danielle Cruz</a></div>
+            <div id="title"><h1>SoundSight</h1></div>
+            <div><a class="nav-link" href="../about.html">About</a></div>
+            <div><a class="nav-link" href="#">Resume</a></div>
+        </div>
+        
+        <!-- Credit -->
+        <div id="credit">
+            <p>Designed and developed by me! 2021</p>
+        </div>
+        
+        <!-- Subtitle -->
+        <div id="subtitle">
+            <h2>Designing a better way to visually engage with sounds in video content for Deaf and Hard of Hearing users</h2>
+            <p>Presented at the 2021 Designing for Accessibility Project Fair at Stanford University.</p>
+        </div>
+        
+        <!-- Content -->
+        <div id="content">
+            <iframe class="banner" src="https://www.youtube.com/embed/LgeEp-A7egs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            <!-- Overview -->
+            <div class="one-column">
+                <h3>Overview</h3>
+                <p>
+                    Whether it's a tender moment in a rom-com movie or a jump scare in a horror film, sound plays an integral role in a viewer's experience. Even beyond the soundtrack of a movie are other details like background music and environmental sounds which provide context and emotion that may go unnoticed to those who can’t hear that information. SoundSight is a visualization engine to create better representations of such sounds in video content for Deaf and Hard of Hearing users.
+                </p>
+                <p>
+                    Developed with Lloyd May.
+                </p>
+            </div>
+            
+            <!-- Background -->
+            <div class="one-column">
+                <h3>Background</h3>
+                <p>
+                    While closed captioning is great for encapsulating dialogue in a video, it doesn't capture everything. After interviewing a number of people who are Deaf or Hard of Hearing, we found that semantic and emotive information which informs video content can often get lost in closed captioning. As Christine Sun Kim explains, a mournful violin playing in the background of a scene can often get reduced to something like “[music],” lacking emotional and informative depth <a href="https://youtu.be/tfe479qL8hg">("Artist Christine Sun Kim Rewrites Closed Captions")</a>.
+                </p>
+                <div class="block-quote">
+                    <p>
+                        "Captioning dialogue is one thing. But captioning sound is another."
+                    </p>
+                    <p class="block-quote-credit">
+                        — Christine Sun Kim
+                    </p>
+                </div>
+                <p>
+                    We wondered — how might we create a better way to capture the musical and emotional experience of watching visual content?
+                </p>
+            </div>
+            
+            <!-- Prototyping -->
+            <div class="two-column">
+                <div class="two-column-instance">
+                    <div class="wider-column">
+                        <img src="../assets/images/work/soundsight-prototype.png" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                    <div class="narrower-column">
+                        <h3>Prototyping</h3>
+                        <p>
+                            Using the insights we gathered from our needfinding interviews, we developed the idea of creating a sound visualizer which maps different sonic parameters to visual parameters.
+                            These visualizations would capture sounds like music and environmental noises which aren't typically conveyed by closed captioning and would overlay on the video to supplement (not replace) closed captions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="one-column">
+                <h3>User-Testing</h3>
+                <p>
+                    To better understand which of these variables might prove helpful or prove too distracting, we conducted 2 rounds of prototyping and user-testing with both Deaf and Hard of Hearing users. 
+                </p>
+                
+                <h4>Key Design Questions</h4>
+                <p>
+                    <ul>
+                        <li>What are the most important sounds to convey? (music, voice, environmental noise)</li>
+                        <li>What are the most important aspects of the sound to communicate? (rhythm, intensity, frequency, emotion, location — i.e., does the sound originate from an action on the left or right of the screen)</li>
+                        <li>What is the best strategy to communicate those various aspects? (color, thickness, opacity, noise, smoothness, position on screen)</li>
+                        <li>How might we maximize information and aesthetic enjoyment while minimizing distraction?</li>
+                    </ul>
+                </p>
+                <h4>Methodology</h4>
+                <p>
+                    To conduct these user tests, we created 3 different visualizers for 3 different movie clips. Participants were asked to watch each clip and then respond to a few qualitative questions measuring clarity, understanding, aesthetics, and level of distraction for each clip.
+                </p>
+                <!--<p>
+                    <ul>
+                        <li>What's happening in the clip? How can you tell?</li>
+                        <li>What's the mood of the scene? How can you tell?</li>
+                        <li>How did the visualization impact your viewing of the scene?</li>
+                        <li>What was effective or ineffective about the visualization?</li>
+                    </ul>
+                </p>-->
+            </div>
+            
+            <!-- Findings -->
+            <div class="one-column one-column-before-two">
+                <h3>Findings</h3>
+                <p>After these rounds of user-testing, we identified the following insights to inform revisions for future prototypes.</p>
+            </div>
+            
+            <div class="two-column">
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/soundsight-horror.gif" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                    <div>
+                        <p>
+                            <span class="main-idea">Spacialized sound seemed appealing.</span> We were able to validate our assumption that placing hte visualizer on the side of the screen where the sound originated would add helpful context to the viewing experience. Multiple participants expressed interest in spacialized sound and understood that it was conveying location.
+                        </p>
+                    </div>
+                </div>
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/soundsight-rom-com.gif" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                    <div>
+                        <p>
+                            <span class="main-idea">Voice visualizer was redundant.</span> One of our prototypes included a scene where our protagonist gives a long and emotional speech, so we built separate visualizers for both the background music and for the speaker’s voice. Users found this distinct voice visualizer distracting, as the closed captions were already there. They expressed preference to watching the speaker’s mouth and facial expressions instead.
+                        </p>
+                    </div>
+                </div>
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/soundsight-action.gif" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                    <div>
+                        <p>
+                            <span class="main-idea">Screen position of the visualizer relative to the closed captioning.</span>Our design originally placed the visualizations on the left and right of the screen; however, some users noted that they would have to look the entire length of the screen East-West “like a lizard” in order to get a sense of what sounds they were conveying.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Future work -->
+            <div class="one-column">
+                <h3>Future Work</h3>
+                <p>Given the limited scope of our user-testing, next steps include conducting more widely-tested surveys with more controlled and finer-tuned visualization prototypes. We'd also like to explore the option of leaving more room for aesthetic customization with regard to color, thickness, screen position, etc.</p>
+            </div>
+        </div>
+        
+        
+    </body>
+    </html>
+    
