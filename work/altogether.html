@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../assets/images/icon.png">
+    
+    <title>ALTogether - Danielle Cruz</title>
+    <link rel="stylesheet" href="../styles.css">
+    
+    
+    <!-- These two lines provide automatic page and style reloading when files change -->
+    <!-- <script src="/socket.io/socket.io.js"></script>
+        <script src="/lib/client/updater.js" defer></script> -->
+    </head>
+    <body>
+        
+        <!-- Navigation Menu -->
+        <div id="menu">
+            <div id="name"><a class="nav-link" href="../index.html">Danielle Cruz</a></div>
+            <div id="title"><h1>ALTogether</h1></div>
+            <div><a class="nav-link" href="../about.html">About</a></div>
+            <div><a class="nav-link" href="#">Resume</a></div>
+        </div>
+        
+        <!-- Credit -->
+        <div id="credit">
+            <p>Designed and developed by me! 2021</p>
+        </div>
+        
+        <!-- Subtitle -->
+        <div id="subtitle">
+            <h2>Creating richer, more reliable alt-text</h2>
+        </div>
+        
+        <!-- Content -->
+        <div id="content">
+            <iframe class="banner" src="https://www.youtube.com/embed/1Os8VLGGnlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <!-- Overview -->
+            <div class="one-column">
+                <h3>Overview</h3>
+                <p>
+                    Images play such a huge role on social media platforms; however, the notion of alt text is unknown to many sighted users, hence leaving countless photos without alt text descriptions. <a href="http://web.stanford.edu/class/cs147/projects/MultimodalInterfacestoBroadenAccess/ALTogether/index.html">ALTogether</a> is an Instagram extension which helps sighted users to write quality alt text by modifying AI-generated suggestions on their images.
+                </p>
+                <p>
+                    Developed with Haeli Baek, Jung-Won Ha, and Sydney Jones.
+                </p>
+            </div>
+            
+            <div class="two-column">
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/alt-text.png" alt="An Instagram post with exposed alt-text which reads: May be an image of one or more people and indoor.">
+                    </div>
+                    <div>
+                        <h4>What's alt-text?</h4>
+                        <p>
+                            To interact with images on webpages and digital platforms, many people who are blind or visually-impaired use a screen reader to access written descriptions of these photos. This description is called alt text, and people can add it to images to make the visual information being conveyed accessible to those who can’t see it. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Background -->
+            <div class="one-column">
+                <h3>Background</h3>
+                <p>
+                    After interviewing 6 blind and visually-impaired users, however, we unfortunately discovered that alt text isn’t included in the majority of images posted online. Sighted users often neglect to write an alt text before they think to upload a photo. One 2019 study found that a mere 0.1% of all images on Twitter included alt text, making the other 99.9% of images virtually inaccessible to many blind and visually-impaired users who rely on screen readers to navigate the digital landscape (<a href="https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2019/twitter-alt-text.pdf">source</a>). It’s not difficult to see why, as  social media platforms often have a convoluted, hidden process for adding personalized alt text, resulting in sighted users not knowing how to add alt text even if they wanted to be allies. 
+                </p>
+                <p>
+                    Some platforms attempt to circumvent this issue by providing auto-generated alt text that relies on artificial intelligence to analyze and describe the image programmatically. However, these auto-generated descriptions tend to be inaccurate and lacking in the context and nuance only a human can provide, often leaving blind and visually-impaired users feeling frustrated.
+                </p>
+                <div class="block-quote">
+                    <p>
+                        "One of my friends shared a photo on Facebook, and the auto-generated alt text read, “contains sky, grass, bird,” which sounds really serene and idyllic! But the caption clarified the image was actually of a creepy, dead crow... The alt text didn’t really capture the point of the image."
+                    </p>
+                </div>
+                <p class="main-idea">
+                    Together, our team wondered — how might we guide sighted users to write personalized and quality alt texts in a way that brings accessibility to the forefront?
+                </p>
+            </div>
+            
+            <!-- Prototyping -->
+            <div class="one-column">
+                <h3>Prototyping</h3>
+                <p>
+                    Of all the social media platforms, Instagram is the most dependent on visual content, so our team decided to focus our efforts on improving alt text there. We conducted 3 rounds of prototyping at low, medium, and high levels of fidelity, testing them with different sighted users who had varying degrees of familiarity with posting on the platform.
+                </p>
+                <p>
+                    From this testing, we validated our assumption that writing alt text isn't primarily a question of time or effort but rather of awareness. ​​Once users understood what alt text was, they liked the idea of writing it to make their feeds more accessible. We also found that since most sighted users didn’t know what alt text was, they didn’t know what best practices to adopt when writing one. However, from our needfinding interviews, we remembered that not just having alt-text, but having quality, descriptive ones was essential.
+                </p>
+                <p>
+                    We identified three main tasks for a solution that would not only remind users to write alt-text, but also guide them how:
+                </p>
+                <p>
+                    <ol>
+                        <li>Sighted users are reminded to write alt text and can find where to write it.</li>
+                        <li>Sighted users can identify which photos lack alt text and encourage friends to add their own alt texts.</li>
+                        <li>Sighted users can modify auto-generated alt text suggestions to add personalized context to their images.</li>
+                    </ol>
+                </p>
+            </div>
+            
+            <div class="two-column">
+                <div class="two-column-instance">
+                    <div>
+                        <img src="../assets/images/work/altogether-prototype-1.JPG" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                    <div>
+                        <img src="../assets/images/work/altogether-prototype-2.JPG" alt="A hand-drawn sketch of a low-fidelity prototype where a user can approve or disapprove alt text suggestions to ensure they are accurate to the photo.">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Solution -->
+            <div class="one-column">
+                <h3>Solution</h3>
+                <p>
+                    We designed ALTogether, an Instagram extension that brings alt text to the forefront.</p>
+                </p>
+                <p>
+                    ALTogether seamlessly integrates the alt text writing process into the regular flow of posting a photo, making alt text (or the lack thereof) visible on all posts. Not only does ALTogether remind sighted users to include alt text, but it also guides them through the process of writing it, providing an auto-generated suggestion which they easily modify and personalize before posting. Ultimately, ALTogether seeks to increase awareness of accessibility needs for blind and visually-impaired users, encouraging sighted users to adopt alt text practices and motivate their followers to do the same.
+                </p>
+                <iframe class="banner" src="https://www.youtube.com/embed/N1UOy6KGVgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Recognition -->
+            <div class="one-column">
+                <h3>Recognition</h3>
+                <p>
+                    We presented ALTogether at the 2021 Design Thinking for User Experience Design (dt+UX) Expo at Stanford University and received awards for the Most Societal Impact, Best Demo, Best Pitch, and Best Concept Video.
+                </p>
+            </div>
+        </div>
+        
+        
+    </body>
+    </html>
+    
