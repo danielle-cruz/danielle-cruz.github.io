@@ -254,3 +254,15 @@ li {
 .main-idea {
     font-family: "AUTHENTICSans-130";
 }
+
+.external-link {
+    margin: 0rem;
+}
+
+.external-link h3 {
+    margin: 0rem;
+}
+
+.external-link a {
+    color: #52A6D4;
+}
