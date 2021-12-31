@@ -69,8 +69,17 @@ a:hover {
     color: black;
 }
 
-/* Gallery */
+/* Credit */
+#credit {
+    position: fixed;
+    left: 2rem;
+    bottom: 1rem;
+    font-family: "AUTHENTICSans-60";
+    font-weight: lighter;
+    color: #B6B6B6;
+} 
 
+/* Gallery */
 #gallery {
     display: flex;
     flex-direction: row;
