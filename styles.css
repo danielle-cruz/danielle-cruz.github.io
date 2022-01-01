@@ -54,7 +54,7 @@ img {
 }
 
 ol, ul{
-    margin: 0rem 2rem;
+    margin: 0rem 1rem;
 }
 
 li {
@@ -145,7 +145,7 @@ li {
 
 .thumbnail h2 {
     margin-bottom: 0rem;
-    font-size: large;
+    font-size: x-large;
     color: black;
     text-decoration: none;
 }
