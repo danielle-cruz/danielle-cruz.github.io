@@ -205,6 +205,10 @@ li {
     
 }
 
+.feature > div:not(:first-child) {
+    margin-top: 4rem;
+}
+
 .feature img {
     width: 60vw;
     display: block;
