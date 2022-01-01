@@ -205,6 +205,25 @@ li {
     
 }
 
+.feature img {
+    width: 60vw;
+    display: block;
+    object-fit: cover;
+    border-radius: 1.5%;
+    box-shadow: 0rem 0rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.feature p {
+    margin: 1rem;
+    font-size: large;
+    color: #B6B6B6;
+    text-align: center;
+}
+
+.feature a {
+    color: #B6B6B6;
+}
+
 .one-column {
     margin: 2rem 20rem;
 }
