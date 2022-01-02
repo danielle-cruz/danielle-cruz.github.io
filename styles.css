@@ -317,3 +317,53 @@ li {
 .block-quote.altogether {
     border-left: 5px solid #FF0404;
 }
+
+#title.ted-lasso, .external-link.ted-lasso a, .block-quote.ted-lasso,
+#title.linked-out, .external-link.linked-out a, .block-quote.linked-out {
+    color: #0041FF;
+}
+
+.block-quote.ted-lasso,
+.block-quote.linked-out {
+    border-left: 5px solid #0041FF;
+}
+
+#title.guia, .external-link.guia a, .block-quote.guia {
+    color: #EF9D23;
+}
+
+.block-quote.guia {
+    border-left: 5px solid #EF9D23;
+}
+
+#title.soundsight, .external-link.soundsight a, .block-quote.soundsight  {
+    color: #45863A;
+}
+
+.block-quote.soundsight {
+    border-left: 5px solid #45863A;
+}
+
+#title.buildagram, .external-link.buildagram a, .block-quote.buildagram  {
+    color: #500484;
+}
+
+.block-quote.buildagram {
+    border-left: 5px solid #500484;
+}
+
+#title.fil-am, .external-link.fil-am a, .block-quote.fil-am  {
+    color: #FF0D86;
+}
+
+.block-quote.fil-am {
+    border-left: 5px solid #FF0D86;
+}
+
+#title.in-flux, .external-link.in-flux a, .block-quote.in-flux   {
+    color: #52A6D4;
+}
+
+.block-quote.in-flux {
+    border-left: 5px solid #52A6D4;
+}

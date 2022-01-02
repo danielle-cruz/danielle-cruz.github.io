@@ -1,13 +1,12 @@
 const COLORS = {
-    "index": "#52A6D4",
     "altogether": "#FF0404",
-    "tedLasso": "#EF9D23",
-    "guia": "#0041FF",
+    "tedLasso": "#0041FF",
+    "guia": "#EF9D23",
     "soundsight": "#45863A",
     "buildagram": "#500484",
-    "filAm": "#52A6D4",
-    "linkedOut": "#FF0D86",
-    "inFlux": "#EF9D23"
+    "filAm": "#FF0D86",
+    "linkedOut": "#0041FF",
+    "inFlux": "#52A6D4"
 }
 
 /* Get elements that should be re-colored */
