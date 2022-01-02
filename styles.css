@@ -129,13 +129,15 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 6rem 4rem;
+    justify-content: center;
+    padding: 10vh 5vh;
+
 }
 
 .thumbnail {
     width: 40vw;
-    margin: 1rem 2rem;
+    min-width: 500px;
+    margin: 2vh 2vw;
     cursor: pointer;
 }
 
