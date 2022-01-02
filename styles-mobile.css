@@ -1,3 +1,76 @@
+/* Small */
+@media only screen and (max-width: 600px) {
+
+    h3 {
+        font-size: large;
+    }
+
+    h4 {
+        font-size: medium;
+    }
+    
+    p {
+        font-size: small;
+    }
+
+    #selected > h1 {
+        font-size: large;
+    }
+    
+    .nav-link {
+        margin: 1rem 0rem;
+        font-family: "AUTHENTICSans-90";
+        font-size: large;
+        font-weight: normal;
+        color: black;
+    }
+
+    .block-quote p {
+        font-size: medium;
+    }
+
+    #about p {
+        font-size: small;
+    }
+}
+
+/* Medium */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+    h3 {
+        font-size: x-large;
+    }
+
+    h4 {
+        font-size: large;
+    }
+    
+    p {
+        font-size: medium;
+    }
+
+    #selected > h1 {
+        font-size: x-large;
+    }
+    
+    .nav-link {
+        margin: 1rem 0rem;
+        font-family: "AUTHENTICSans-90";
+        font-size: x-large;
+        font-weight: normal;
+        color: black;
+    }
+
+    .block-quote p {
+        font-size: large;
+    }
+
+    #about p {
+        font-size: medium;
+    }
+}
+
+/* Both */
 @media only screen and (max-width: 1000px) {
     body {
         margin: 0rem;
@@ -9,10 +82,6 @@
     
     h2 {
         font-size: x-large;
-    }
-    
-    p {
-        font-size: small;
     }
     
     /* Menu */
@@ -31,18 +100,6 @@
     
     #header {
         display: none;
-    }
-    
-    #selected > h1 {
-        font-size: large;
-    }
-    
-    .nav-link {
-        margin: 1rem 0rem;
-        font-family: "AUTHENTICSans-90";
-        font-size: large;
-        font-weight: normal;
-        color: black;
     }
     
     /* Title */
@@ -104,11 +161,6 @@
         margin: 0rem auto;
     }
     
-    #about p {
-        font-size: small;
-    }
-    
-    
     /* Content */
     #content {
         margin: 1rem;
@@ -122,6 +174,10 @@
         aspect-ratio: 16 / 9;
         display: block;
         
+    }
+
+    .feature img {
+        width: 80vw;
     }
 
     .feature p {
@@ -156,10 +212,6 @@
     .block-quote {
         margin: 2rem;
         padding-left: 1rem;
-    }
-    
-    .block-quote p {
-        font-size: medium;
     }
     
     ol, ul{
