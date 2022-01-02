@@ -123,9 +123,17 @@
         display: block;
         
     }
+
+    .feature p {
+        font-size: medium;
+    }
     
     .one-column {
         margin: 2rem 1rem;
+    }
+
+    .one-column-before-two {
+        margin-bottom: 0rem;;
     }
     
     .two-column {
@@ -168,54 +176,29 @@
         color: #FF0404;
     }
     
-    #title.ted-lasso, .external-link.ted-lasso a, .block-quote.ted-lasso,
-    #title.linked-out, .external-link.linked-out a, .block-quote.linked-out {
+    #title.ted-lasso,
+    #title.linked-out {
         color: #0041FF;
     }
     
-    .block-quote.ted-lasso,
-    .block-quote.linked-out {
-        border-left: 5px solid #0041FF;
-    }
-    
-    #header.guia, .external-link.guia a, .block-quote.guia {
+   #title.guia {
         color: #EF9D23;
     }
     
-    .block-quote.guia {
-        border-left: 5px solid #EF9D23;
-    }
-    
-    #header.soundsight, .external-link.soundsight a, .block-quote.soundsight  {
+    #title.soundsight  {
         color: #45863A;
     }
     
-    .block-quote.soundsight {
-        border-left: 5px solid #45863A;
-    }
-    
-    #header.buildagram, .external-link.buildagram a, .block-quote.buildagram  {
+    #title.buildagram  {
         color: #500484;
     }
-    
-    .block-quote.buildagram {
-        border-left: 5px solid #500484;
-    }
-    
-    #header.fil-am, .external-link.fil-am a, .block-quote.fil-am  {
+
+    #title.fil-am  {
         color: #FF0D86;
     }
     
-    .block-quote.fil-am {
-        border-left: 5px solid #FF0D86;
-    }
-    
-    #header.in-flux, .external-link.in-flux a, .block-quote.in-flux   {
+    #title.in-flux {
         color: #52A6D4;
-    }
-    
-    .block-quote.in-flux {
-        border-left: 5px solid #52A6D4;
     }
     
 }

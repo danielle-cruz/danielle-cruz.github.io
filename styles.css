@@ -216,6 +216,7 @@ li {
 
 .feature img {
     width: 60vw;
+    margin: 0 auto;
     display: block;
     object-fit: cover;
     border-radius: 1.5%;
@@ -311,7 +312,7 @@ li {
 }
 
 .external-link h3 {
-    margin: 0rem;
+    margin: 0.5rem;
     text-align: center;
 }
 
