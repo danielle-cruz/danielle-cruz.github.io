@@ -131,7 +131,7 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     padding: 10vh 5vh;
-
+    
 }
 
 .thumbnail {
@@ -168,7 +168,7 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 6rem 4rem;
+    padding: 10vh 5vh;
 }
 
 #about > div {
@@ -180,8 +180,7 @@ li {
 
 #about img {
     width: 40vw;
-    min-width: 400px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 1.5%;
 }
 
