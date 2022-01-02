@@ -32,6 +32,10 @@
     #about p {
         font-size: small;
     }
+
+    li {
+        font-size: small;
+    }
 }
 
 /* Medium */
@@ -66,6 +70,10 @@
     }
 
     #about p {
+        font-size: medium;
+    }
+
+    li {
         font-size: medium;
     }
 }
@@ -176,7 +184,7 @@
         
     }
 
-    .feature img {
+    .feature img, .feature iframe {
         width: 80vw;
     }
 
@@ -220,7 +228,6 @@
     
     li {
         margin: 1rem 0rem;
-        font-size: small;
     }
     
     /* Accent colors */
