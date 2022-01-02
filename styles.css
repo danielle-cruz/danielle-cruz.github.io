@@ -1,15 +1,15 @@
 
 @font-face {
     font-family: "AUTHENTICSans-60";
-    src: url("/assets/fonts/AUTHENTICSans-60.otf");
+    src: url("assets/fonts/AUTHENTICSans-60.otf");
 }
 @font-face {
     font-family: "AUTHENTICSans-90";
-    src: url("/assets/fonts/AUTHENTICSans-90.otf");
+    src: url("assets/fonts/AUTHENTICSans-90.otf");
 }
 @font-face {
     font-family: "AUTHENTICSans-130";
-    src: url("/assets/fonts/AUTHENTICSans-130.otf");
+    src: url("assets/fonts/AUTHENTICSans-130.otf");
 }
 
 * {
@@ -24,7 +24,6 @@ body {
 h1 {
     font-family: "AUTHENTICSans-90";
     font-size: x-large;
-    color: #52A6D4;
 }
 
 h2 {
@@ -83,6 +82,7 @@ li {
 
 #title {
     flex-grow: 1;
+    color: #52A6D4;
 }
 
 #subtitle {
@@ -285,16 +285,12 @@ li {
 .block-quote {
     margin: 3rem;
     padding-left: 1rem;
-    border-left: 5px solid #52A6D4;
-    
-    
 }
 
 .block-quote p {
     font-family: "AUTHENTICSans-60";
     font-weight: 200;
     font-size: x-large;
-    color: #52A6D4;
 }
 
 .block-quote-credit {
@@ -314,6 +310,10 @@ li {
     text-align: center;
 }
 
-.external-link a {
-    color: #52A6D4;
+#title.altogether, .external-link.altogether a, .block-quote.altogether  {
+    color: #FF0404;
+}
+
+.block-quote.altogether {
+    border-left: 5px solid #FF0404;
 }
