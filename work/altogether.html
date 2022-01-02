@@ -89,29 +89,19 @@
                         — One blind user whom we interviewed
                     </p>
                 </div>
-                <p>
-                    Together, our team wondered — how might we guide sighted users to write personalized and quality alt texts in a way that brings accessibility to the forefront?
-                </p>
+                <h4>
+                    Accessibility shouldn’t just be an afterthought that’s remedied with automation. We wondered, how could we make writing alt text easier and more fun from the start?
+                </h4>
             </div>
             
             <!-- Prototyping -->
-            <div class="one-column">
+            <div class="one-column one-column-before-two">
                 <h3>Prototyping</h3>
                 <p>
-                    Of all the social media platforms, Instagram is the most dependent on visual content, so our team decided to focus our efforts on improving alt text there. We conducted 3 rounds of prototyping at low, medium, and high levels of fidelity, testing them with different sighted users who had varying degrees of familiarity with posting on the platform.
+                    Because the issue here lies not with the disability but the lack of accessibility, we decided to focus our efforts on educating sighted users, directing the burden away from blind or visually-impaired users. Additionally, we selected Instagram as our target platform, as it is the most dependent on visual content.
                 </p>
                 <p>
-                    From this testing, we validated our assumption that writing alt text isn't primarily a question of time or effort but rather of awareness. Once users understood what alt text was, they liked the idea of writing it to make their feeds more accessible. We also found that since most sighted users didn't know what alt text was, they didn't know what best practices to adopt when writing one. However, from our needfinding interviews, we remembered that not just having alt-text, but having quality, descriptive ones was essential.
-                </p>
-                <p>
-                    We identified three main tasks for a solution that would not only remind users to write alt-text, but also guide them how:
-                </p>
-                <p>
-                    <ol>
-                        <li>Sighted users are reminded to write alt text and can find where to write it.</li>
-                        <li>Sighted users can identify which photos lack alt text and encourage friends to add their own alt texts.</li>
-                        <li>Sighted users can modify auto-generated alt text suggestions to add personalized context to their images.</li>
-                    </ol>
+                    We conducted 3 rounds of prototyping at low, medium, and high levels of fidelity, testing them with different sighted users who had varying degrees of familiarity with posting on the platform. From this testing, we validated our assumption that writing alt text isn’t primarily a question of time or effort but rather of awareness. ​​Once users understood what alt text was, they liked the idea of writing it to make their feeds more accessible. We also found that since most sighted users didn’t know what alt text was, they didn’t know what best practices to adopt when writing one. However, from our needfinding interviews, we remembered that not just having alt-text, but having quality, descriptive ones was essential.
                 </p>
             </div>
             
@@ -130,14 +120,75 @@
             <!-- Solution -->
             <div class="one-column">
                 <h3>Solution</h3>
+                <h4>
+                    We designed ALTogether, an Instagram extension that brings alt text to the forefront.</h4>
+                </h4>
                 <p>
-                    We designed ALTogether, an Instagram extension that brings alt text to the forefront.</p>
+                    ALTogether seamlessly integrates the alt text writing process into the regular flow of posting a photo, making alt text (or the lack thereof) visible on all posts. Not only does ALTogether remind sighted users to include alt text, but it also guides them through the process of writing it, providing an auto-generated suggestion which they easily modify and personalize before posting. This helps ensure that alt texts written with ALTogether actually follow best practices without overwhelming the user to write an entire alt text from scratch.
                 </p>
                 <p>
-                    ALTogether seamlessly integrates the alt text writing process into the regular flow of posting a photo, making alt text (or the lack thereof) visible on all posts. Not only does ALTogether remind sighted users to include alt text, but it also guides them through the process of writing it, providing an auto-generated suggestion which they easily modify and personalize before posting. Ultimately, ALTogether seeks to increase awareness of accessibility needs for blind and visually-impaired users, encouraging sighted users to adopt alt text practices and motivate their followers to do the same.
+                    Ultimately, ALTogether seeks to increase awareness of accessibility needs for blind and visually-impaired users, encouraging sighted users to adopt alt text practices and motivate their followers to do the same.
                 </p>
             </div>
-            <iframe class="banner" src="https://www.youtube.com/embed/N1UOy6KGVgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class="feature">
+                <div>
+                    <iframe class="banner" src="https://www.youtube.com/embed/N1UOy6KGVgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>A walkthrough demo of our high-fidelity prototype, coded in React Native.</p>
+                </div>
+            </div>
+
+             <!-- Tasks -->
+             <div class="one-column one-column-before-two"">
+                <h3>Tasks</h3>
+                <p>
+                    To achieve this, we identified three main tasks for our design and implementation.
+                </p>
+                <!-- <p>
+                    <ol>
+                        <li>Sighted users are reminded to write alt text and can find where to write it.</li>
+                        <li>Sighted users can identify which photos lack alt text and encourage friends to add their own alt texts.</li>
+                        <li>Sighted users can modify auto-generated alt text suggestions to add personalized context to their images.</li>
+                    </ol>
+                </p> -->
+            </div>
+
+            <div class="two-column">
+                <div class="two-column-instance">
+                    <div class="narrower-column">
+                        <p>
+                            <span class="main-idea">Task 1.</span> Sighted users are reminded to write alt text and can find where to write it.
+                        </p>
+                    </div>
+                    <div class="widest-column">
+                        <img src="../assets/images/work/altogether-task-1.png" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                </div>
+                <div class="two-column-instance">
+                    <div class="narrower-column">
+                        <p>
+                            <span class="main-idea">Task 2.</span> Sighted users can modify auto-generated alt text suggestions to add personalized context to their images.
+                        </p>
+                    </div>
+                    <div class="widest-column">
+                        <img src="../assets/images/work/altogether-task-2.png" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                </div>
+                <div class="two-column-instance">
+                    <div class="narrower-column">
+                        <p>
+                            <span class="main-idea">Task 3.</span> Sighted users can identify which photos lack alt text and encourage friends to add their own alt texts.      
+                        </p>
+                    </div>
+                    <div class="widest-column">
+                        <img src="../assets/images/work/altogether-task-3.png" alt="A hand-drawn sketch of a low-fidelity prototype where a user sees that a photo doesn't have alt text and notifies the poster of that photo.">
+                        
+                    </div>
+                </div>
+               
+            </div>
 
             
             <!-- Recognition -->

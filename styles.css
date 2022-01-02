@@ -214,7 +214,7 @@ li {
     margin-top: 4rem;
 }
 
-.feature img {
+.feature img, .feature iframe {
     width: 60vw;
     margin: 0 auto;
     display: block;
@@ -282,6 +282,10 @@ li {
 
 .wider-column {
     flex: 2;
+}
+
+.widest-column {
+    flex: 4;
 }
 
 .narrower-column {
