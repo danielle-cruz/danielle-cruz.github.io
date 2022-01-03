@@ -5,7 +5,7 @@
   <title>Danielle Cruz</title>
   <meta charset="UTF-8">
   <meta name="description" content="Danielle is a designer and developer building technologies that make experiences more equitable and more accessible.">
-
+  
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://danielle-cruz.github.io/">
   
@@ -13,7 +13,7 @@
   <meta property="og:title" content="Danielle Cruz">
   <meta property="og:description" content="Danielle is a designer and developer building technologies that make experiences more equitable and more accessible.">
   <meta property="og:image" content="https://danielle-cruz.github.io/assets/images/preview.png">
-
+  
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="danielle-cruz.github.io">
@@ -21,7 +21,7 @@
   <meta name="twitter:title" content="Danielle Cruz">
   <meta name="twitter:description" content="Danielle is a designer and developer building technologies that make experiences more equitable and more accessible.">
   <meta property="twitter:image" content="https://danielle-cruz.github.io/assets/images/preview.png">
-
+  
   <!-- CSS and JS files-->
   <link rel="icon" href="assets/images/icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -35,19 +35,14 @@
   <body>
     
     <!-- Navigation Menu -->
-    <div id="menu">
+    <div id="menu" aria-label="Navigation menu">
       <div id="selected"><h1>Danielle Cruz</h1></div>
       <div><a class="nav-link" href="about.html">About</a></div>
       <div><a class="nav-link" href="assets/files/DanielleCruz-Resume.pdf" target="_blank">Resume</a></div>
     </div>
     
-    <!-- Credit -->
-    <div id="credit">
-      <p>Designed and developed by me! 2021</p>
-    </div>
-    
     <!-- Gallery -->
-    <div id="gallery">
+    <div id="gallery" aria-label="Projects gallery">
       
       <!-- <div class="thumbnail" onclick="location.href='#';">
         <img src="assets/images/thumbnails/goschoolbox.png">
@@ -55,54 +50,70 @@
         <h3>Visualizing student progress in academics and social-emotional learning</h3>
       </div> -->
       
-      <div id="altogether" class="thumbnail" onclick="location.href='work/altogether.html';">
-        <img src="assets/images/thumbnails/altogether.png" alt="A young white woman smiling while looking at her phone and writing alt text for an image of an ice cream cone.">
-        <h2>ALTogether</h2>
-        <h3>Creating richer, more reliable alt-text</h3>
-      </div>
+      <a id="altogether" class="thumbnail" href="work/altogether.html" aria-label="ALTogether" c>
+        <div>
+          <img src="assets/images/thumbnails/altogether.png" alt="A young white woman smiling while looking at her phone and writing alt text for an image of an ice cream cone.">
+          <h2>ALTogether</h2>
+          <h3>Creating richer, more reliable alt-text</h3>
+        </div>
+      </a>
       
-      <div id="ted-lasso" class="thumbnail" onclick="location.href='work/ted-lasso.html';">
-        <img src="assets/images/thumbnails/ted-lasso.png" alt="A web of characters from Ted Lasso with red and blue lines connecting each of them.">
-        <h2>Be Curious, Not Judgmental</h2>
-        <h3>Breaking down the dialogue behind Apple TV+'s hit series "Ted Lasso"
-        </h3>
-      </div>
+      <a id="ted-lasso" class="thumbnail" href="work/ted-lasso.html" aria-label="Be Curious, Not Judgmental" >
+        <div>
+          <img src="assets/images/thumbnails/ted-lasso.png" alt="A web of characters from Ted Lasso with red and blue lines connecting each of them.">
+          <h2>Be Curious, Not Judgmental</h2>
+          <h3>Breaking down the dialogue behind Apple TV+'s hit series "Ted Lasso"
+          </h3>
+        </div>
+      </a>
       
-      <div id="guia" class="thumbnail" onclick="location.href='work/guia.html';">
-        <img src="assets/images/thumbnails/guia.png" alt="A pop-up window indcating that a Portuguese article is at the appropriate difficulty and interest level for this student.">
-        <h2>Guia</h2>
-        <h3>Helping learners engage with new languages more meaningfully</h3>
-      </div>
+      <a id="guia" class="thumbnail" href="work/guia.html" aria-label="Guia">
+        <div>
+          <img src="assets/images/thumbnails/guia.png" alt="A pop-up window indicating that a Portuguese article is at the appropriate difficulty and interest level for this student.">
+          <h2>Guia</h2>
+          <h3>Helping learners engage with new languages more meaningfully</h3>
+        </div>
+      </a>  
       
-      <div id="soundsight" class="thumbnail" onclick="location.href='work/soundsight.html';">
-        <img src="assets/images/thumbnails/soundsight.png" alt="A dim-lit scene from a horror movie in which an man reaches for a mysterious key. Closed captioning reads: Eerie music with jagged green lines on the left and right."">
-        <h2>SoundSight</h2>
-        <h3>Designing a better way to visually engage with sounds in video content for Deaf and Hard of Hearing users</h3>
-      </div>
+      <a id="soundsight" class="thumbnail" href="work/soundsight.html" aria-label="SoundSight">
+        <div>
+          <img src="assets/images/thumbnails/soundsight.png" alt="A dim-lit scene from a horror movie in which an man reaches for a mysterious key. Closed captioning reads: Eerie music with jagged green lines on the left and right."">
+          <h2>SoundSight</h2>
+          <h3>Designing a better way to visually engage with sounds in video content for Deaf and Hard of Hearing users</h3>
+        </div>
+      </a>
       
-      <div id="buildagram" class="thumbnail" onclick="location.href='work/buildagram.html';">
-        <img src="assets/images/thumbnails/buildagram.png" alt="A young Asian boy and south Asian woman play-testing with colorful geometric pieces.">
-        <h2>Buildagram</h2>
-        <h3>Developing a constructionist kit to bridge the gap between geometry and creativity</h3>
-      </div>
+      <a id="buildagram" class="thumbnail" href="work/buildagram.html" aria-label="Buildagram">
+        <div>
+          <img src="assets/images/thumbnails/buildagram.png" alt="A young Asian boy and south Asian woman play-testing with colorful geometric pieces.">
+          <h2>Buildagram</h2>
+          <h3>Developing a constructionist kit to bridge the gap between geometry and creativity</h3>
+        </div>
+      </a>
       
-      <div id="fil-am" class="thumbnail" onclick="location.href='work/fil-am.html';">
-        <img src="assets/images/thumbnails/fil-am.png" alt="A screenshot of a red, blue, and yellow GIF displaying two girls, the Golden Gate Bridge, and a bucket of chicken.">
-        <h2>Fil-Am (n)</h2>
-        <h3>Trying to define my relationship to my Filipino-American identity</h3>
-      </div>
+      <a id="fil-am" class="thumbnail" href="work/fil-am.html" aria-label="Fil-Am (noun)">
+        <div>
+          <img src="assets/images/thumbnails/fil-am.png" alt="A screenshot of a red, blue, and yellow GIF displaying two girls, the Golden Gate Bridge, and a bucket of chicken.">
+          <h2>Fil-Am (n)</h2>
+          <h3>Trying to define my relationship to my Filipino-American identity</h3>
+        </div>
+      </a>
       
-      <div id="linked-out" class="thumbnail" onclick="location.href='work/linked-out.html';">
-        <img src="assets/images/thumbnails/linked-out.png" alt="An interface designed to resemble LinkedIn with a cover photo of a woman staring at herself in a mirror.">
-        <h2>LinkedOut</h2>
-        <h3>Re-focusing on the experiences and accomplishments that I'm most proud of</h3>
-      </div>
+      <a id="linked-out" class="thumbnail" href="work/linked-out.html" aria-label="LinkedOut">
+        <div>
+          <img src="assets/images/thumbnails/linked-out.png" alt="An interface designed to resemble LinkedIn with a cover photo of a woman staring at herself in a mirror.">
+          <h2>LinkedOut</h2>
+          <h3>Re-focusing on the experiences and accomplishments that I'm most proud of</h3>
+        </div>
+      </a>
       
-      <div id="in-flux" class="thumbnail" onclick="location.href='work/in-flux.html';">
-        <img src="assets/images/thumbnails/in-flux.png" alt="Cupped hands catching falling blue letters as they descend the height of the screen.">
-        <h2>In Flux</h2>
-        <h3>Reflecting on the values that have stuck with me and which have passed through</h3>
-      </div>
+      <a id="in-flux" class="thumbnail" href="work/in-flux.html" aria-label="In Flux">
+        <div>        
+          <img src="assets/images/thumbnails/in-flux.png" alt="Cupped hands catching falling blue letters as they descend the height of the screen.">
+          <h2>In Flux</h2>
+          <h3>Reflecting on the values that have stuck with me and which have passed through</h3>
+        </div>
+      </a>
       
       <!-- <div class="thumbnail" onclick="location.href='#';">
         <img src="assets/images/thumbnails/tagged.png">
@@ -110,9 +121,12 @@
         <h3>Contextualizing my life through photos I've been tagged in on social media</h3>
       </div> -->
       
-      
     </div>
-    
+
+    <!-- Credit -->
+    <div id="credit">
+      <p>Designed and developed by me! 2021</p>
+    </div>
     
   </body>
   </html>
