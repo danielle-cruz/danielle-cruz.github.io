@@ -139,9 +139,10 @@ li {
     min-width: 500px;
     margin: 2vh 2vw;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.thumbnail > img {
+.thumbnail img {
     display: block;
     height: 40vh;
     width: 100%;
