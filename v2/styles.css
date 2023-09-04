@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Standard-Book";
+    src: url("assets/fonts/standard-book.otf");
+}
+@font-face {
+    font-family: "Standard-Bold";
+    src: url("assets/fonts/standard-bold.otf");
+}
+@font-face {
+    font-family: "Newsreader";
+    src: url("assets/fonts/Newsreader-VariableFont_opsz\,wght.ttf");
+}
+@font-face {
+    font-family: "Newsreader-Italic";
+    src: url("assets/fonts/Newsreader-Italic-VariableFont_opsz\,wght.ttf");
+}
+
+
+* {
+    font-family: "Standard-Book";
+    font-weight: normal;
+    font-size: medium;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 20vw;
+
+    /* Fixed sidebar */
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+
+#name {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding: 1rem 2rem;
+}
+
+#name a {
+    text-decoration: none;
+}
+
+#name h1 {
+    font-size: large;
+}
+
+#menu {
+    padding: 1rem 2rem;
+}
+
+#menu > ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+#menu li {
+    margin: 0.5rem 0rem;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0rem;
+    height: 5rem;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 20vw;
+    
+}
+
+main {
+    /* padding: 1rem; */
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 1rem; */
+}
+
+/* .gallery-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+} */
+
+.thumbnail {
+    width: 49%;
+    margin: 0rem;
+    /* width: 30vw; */
+    /* min-width: 500px; */
+    /* margin: 2vh 2vw; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.thumbnail img {
+    display: block;
+    width: 100%;
+    max-height: 35vh;
+    /* max-width: 60vh; */
+    object-fit: cover;
+}
+
+.thumbnail h2 {
+    margin-bottom: 0rem;
+    /* color: black; */
+    font-family: "Newsreader";
+    text-decoration: none;
+}
+.thumbnail h3 {
+    margin-top: 0rem;
+    /* color: #B6B6B6; */
+    font-family: "Newsreader-Italic";
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
