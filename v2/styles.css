@@ -62,17 +62,30 @@ body {
     padding: 1rem 2rem;
 }
 
-#menu > ul {
-    list-style-type: none; /* Remove bullets */
+ul {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
 }
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+}
+
+ul.dash-bullets {
+    list-style-type: none;
+}
+
+ul.dash-bullets li::before {
+    content: '— '
+}
+
 
 #menu li {
     margin: 0.5rem 0rem;
 }
 
 #menu a {
+    font-family: "Standard-Book";
     text-decoration: none;
 }
 
@@ -99,6 +112,10 @@ header > div {
 }
 
 main {
+    padding: 1rem 2rem;
+}
+
+#gallery {
     /* padding: 1rem; */
     padding: 1rem 2rem;
     display: flex;
@@ -116,7 +133,7 @@ main {
 
 .thumbnail {
     width: 49%;
-    margin: 0rem;
+    margin-bottom: 1rem;
     /* width: 30vw; */
     /* min-width: 500px; */
     /* margin: 2vh 2vw; */
@@ -127,15 +144,18 @@ main {
 .thumbnail img {
     display: block;
     width: 100%;
-    max-height: 35vh;
+    height: auto;
+    /* width: auto; */
+    /* max-height: 30vh; */
     /* max-width: 60vh; */
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .thumbnail h2 {
     margin-bottom: 0rem;
     /* color: black; */
     font-family: "Newsreader";
+    font-size: large;
     text-decoration: none;
 }
 .thumbnail h3 {
@@ -145,6 +165,40 @@ main {
     text-decoration: none;
 }
 
+.two-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.two-column .minor {
+    width: 40%;
+}
+
+.two-column .major {
+    width: 55%;
+}
+
+.two-column img {
+    width: 100%;
+    object-fit: contain;
+}
+
+h2 {
+    font-family: "Newsreader-Italic";
+    font-size: x-large;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
 p {
-    margin: 0;
+    margin-top: 0;
+}
+
+a {
+    font-family: "Newsreader";
+    text-decoration: underline;
+    font-size: large;
 }
