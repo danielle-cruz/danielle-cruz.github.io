@@ -88,6 +88,8 @@ header {
     position: sticky;
     top: 0rem;
     height: 5rem;
+    z-index: 1; /* Stay on top */
+
 }
 
 header > div {
@@ -143,13 +145,13 @@ main {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: 85%;
     width: 100%;
     opacity: 0;
     border-radius: 100%;
     transition: .1s ease;
     background-color: #EF2FDC;
-    mix-blend-mode: difference;
+    mix-blend-mode: exclusion;
 }
 
 .thumbnail:hover .overlay {
@@ -241,7 +243,8 @@ iframe {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 2rem;
 }
 
 .feature {
@@ -254,4 +257,51 @@ figure {
 
 figcaption {
     text-align: end;
+}
+
+.block-quote {
+    margin: 0rem 3rem;
+    padding-left: 1rem;
+    color:#EF2FDC;
+    border-left: 2px solid #EF2FDC;
+}
+
+.block-quote p {
+    font-family: "Newsreader-Italic";
+    font-size: large;
+    line-height: 1.5rem;
+}
+
+.block-quote-credit {
+    text-align: right;
+}
+
+.filter-button {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0rem 0.1rem;
+    padding: 0.25rem 0.5rem;
+    /* padding: 0rem 0.5rem; */
+    /* padding: 15px 32px; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    /* font-size: 16px; */
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button.selected {
+    border: 2px solid #EF2FDC;
+    color: #EF2FDC;
+    font-weight: bold;
+}
+
+.filter-button {
+    border: 1px solid #F6B6F0;
+    color: #F6B6F0;
+}
+
+#gallery a {
+    /* display: none; */
 }
